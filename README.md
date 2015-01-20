@@ -8,8 +8,8 @@ Rewritten most /impact/ files to support PIXI rendering:
 Features:
 - Background-map.js utilizes SpriteBatch for speed.
 - Use of PIXI's ImageLoader in image.js that works with ImpactJS loader.
-- Fallback to ImpactJS rendering with the use of Weltmeister.
+- Fallback to ImpactJS rendering when using Weltmeister.
 
 Todo:
 - Simplify button class
-- Use PIXI input system instead of ImpactJSs.
+- Use PIXI's input system instead of ImpactJS's.
