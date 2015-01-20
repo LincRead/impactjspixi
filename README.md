@@ -3,7 +3,7 @@ Using ImpactJS with PIXI as rendering engine.
 
 Rewritten most /impact/ files to support PIXI rendering:
 - Create new entities and add animations like you would normally do.
-- Use ig.Image as normally, but add it by writing ig.game.stage.addChild( your_image ) in eg. init()
+- Use ig.Image as normally, but add it to stage by writing: ig.game.stage.addChild( your_image )
 
 Features:
 - Background-map.js utilizes SpriteBatch for speed.
