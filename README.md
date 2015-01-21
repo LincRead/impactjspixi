@@ -10,6 +10,9 @@ Features:
 - Use of PIXI's ImageLoader in image.js that works with ImpactJS loader.
 - Fallback to ImpactJS rendering when using Weltmeister.
 
+Docs:
+- Use PIXI's anchor for entities instead of ImpactJS's offset. This makes the Entity rotate around itself: this.anchor = new PIXI.Point(0.5, 0.5);
+
 Todo:
 - Simplify button class
 - Use PIXI's input system instead of ImpactJS's.
