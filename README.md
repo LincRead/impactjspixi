@@ -10,6 +10,6 @@ Rewritten most /impact/ files to support PIXI rendering:
 - Use ig.Image as normally, but add it to stage by writing: ig.game.stage.addChild( your_image )
 
 Features:
-- Background-map.js utilizes SpriteBatch for speed.
-- Use of PIXI's ImageLoader in image.js that works with ImpactJS Loader.
-- Fallback to ImpactJS's rendering method when using Weltmeister.
+- Background-map.js utilizes SpriteBatch for performance.
+- Usage of PIXI's ImageLoader in image.js that works with ImpactJS Loader.
+- Fallback to ImpactJS's Canvas rendering method while using Weltmeister.
